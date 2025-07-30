@@ -62,8 +62,8 @@ export default function App() {
   };
   let isApplyUploadInput = (fontName && fontLink) || isupload;
   return (
-    <div className="w-full h-screen bg-black text-white flex flex-col items-center justify-start p-6">
-      <div className="w-[65%] flex flex-col items-center justify-start border-2 border-red-500 py-6 shadow-red-200 shadow-2xl">
+<div className="w-full h-screen text-white flex flex-col items-center justify-start p-6">
+      <div className=" flex flex-col items-center justify-start border-2 border-red-500 py-6 shadow-red-200 shadow-2xl px-6">
         <h1 className="text-red-500  text-5xl font-bold">Font Changer</h1>
 
         <p
